@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar"
 import TextAnalyze from "./components/TextAnalyze"
 import './App.css'
-import { useState } from "react"
+import React, { useState } from "react"
 import Alert from "./components/Alert"
 import About from './components/About'
 import Contact from './components/Contact'

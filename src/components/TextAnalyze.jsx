@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import './TextAnalyze.css'
 
 const TextAnalyze = ({heading, alertShow}) => {
