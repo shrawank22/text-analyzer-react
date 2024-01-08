@@ -1,6 +1,6 @@
 {
-  "name": "react-text-analyzer",
   "homepage": "https://shrawank22.github.io/text-analyzer-react/",
+  "name": "react-text-analyzer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
