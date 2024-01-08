@@ -1,0 +1,22 @@
+thead {
+    border-bottom: 1.5px solid;
+}
+
+th,
+td {
+    border-left: 1.5px solid;
+    border-collapse: collapse;
+}
+
+th:first-child {
+    border-left: none;
+}
+
+td:first-child {
+    border-left: none;
+}
+
+th, td {
+    text-align: center;
+}
+
