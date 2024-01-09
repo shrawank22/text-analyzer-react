@@ -42,7 +42,7 @@ function App() {
         <Navbar brand="Text-Analyzer" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Routes>
-          <Route index element={<TextAnalyze alertShow={alertShow} heading="Try TextAnalyzer - Your One Stop Solution for Analyzing texts..." />} />
+          <Route index exact path="/text-analyzer-react" element={<TextAnalyze alertShow={alertShow} heading="Try TextAnalyzer - Your One Stop Solution for Analyzing texts..." />} />
             
           <Route exact path="/about" element={ <About />} />
            

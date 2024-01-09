@@ -16,7 +16,7 @@ const Navbar = ({ brand, mode, toggleMode }) => {
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
                             {/* <a href="/" className="nav-link">HOME</a> */}
-                            <Link to="/" className="nav-link">HOME</Link>
+                            <Link to="/text-analyzer-react" className="nav-link">HOME</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/about" className="nav-link">ABOUT</Link>
