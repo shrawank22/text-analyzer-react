@@ -34,6 +34,9 @@ function App() {
     setMode(body.classList.contains('dark') ? 'dark' : 'light');
 
     body.classList.contains('dark') ? alertShow("success", "Dark Mode Enabled") : alertShow("success", "Light Mode Enabled")
+
+    const textarea = document.querySelector('textarea');
+    textarea.classList.toggle('dark')
   }
 
   return (
