@@ -44,23 +44,23 @@ const TextAnalyze = ({ heading, alertShow }) => {
                 <h2 style={{ textDecoration: "underline" }}>Content Summary: </h2>
                 <div className="row">
                     <div className="col-6 col-md-4">
-                        <h4><span className="text-danger">Characters Count - {content.length}</span></h4>
+                        <h4><span className="text-danger">#Characters - {content.length}</span></h4>
                     </div>
                     <div className="col-6 col-md-4">
-                        <h4><span className="text-success">Words Count - {content.split(/\s+/).filter(word => word !== '').length}</span></h4>
+                        <h4><span className="text-success">#Words - {content.split(/\s+/).filter(word => word !== '').length}</span></h4>
                     </div>
                     <div className="col-6 col-md-4">
-                        <h4><span className="text-danger-emphasis">Spaces Count - {content.split(" ").length - 1}</span></h4>
+                        <h4><span className="text-danger-emphasis">#Spaces - {content.split(" ").length - 1}</span></h4>
                     </div>
                     <div className="col-6 col-md-4">
-                        <h4><span className="text-warning">Sentences Count - {content.split(/[.!?]+/g).length - 1}</span></h4>
+                        <h4><span className="text-warning">#Sentences - {content.split(/[.!?]+/g).length - 1}</span></h4>
                     </div>
                     <div className="col-6 col-md-4">
-                        <h4><span className="text-primary">Paragraphs Count - {content.split(/\n+/).length - 1}</span></h4>
+                        <h4><span className="text-primary">#Paragraphs - {content.split(/\n+/).length - 1}</span></h4>
                         {/*   \n\s*\n     => if two enter is considerd as new paragraph*/}
                     </div>
                     <div className="col-6 col-md-4">
-                        <h4><span className="text-success-emphasis">Symbols Count - {content.split(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g).length - 1}</span></h4>
+                        <h4><span className="text-success-emphasis">#Punctuations - {content.split(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g).length - 1}</span></h4>
                     </div>
                 </div>
 
