@@ -19,10 +19,10 @@ const Navbar = ({ brand, mode, toggleMode }) => {
                             <Link to="/text-analyzer-react" className="nav-link">HOME</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about" className="nav-link">ABOUT</Link>
+                            <Link to="/text-analyzer-react/about" className="nav-link">ABOUT</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact" className="nav-link">CONTACT</Link>
+                            <Link to="/text-analyzer-react/contact" className="nav-link">CONTACT</Link>
                         </li>
                     </ul>
                     <div className={`form-check form-switch nav-item text-${mode === 'light' ? 'secondary-emphasis' : 'light'}`}>

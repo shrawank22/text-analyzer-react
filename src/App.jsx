@@ -44,9 +44,9 @@ function App() {
         <Routes>
           <Route index exact path="/text-analyzer-react" element={<TextAnalyze alertShow={alertShow} heading="Try TextAnalyzer - Your One Stop Solution for Analyzing texts..." />} />
             
-          <Route exact path="/about" element={ <About />} />
+          <Route exact path="/text-analyzer-react/about" element={ <About />} />
            
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/text-analyzer-react/contact" element={<Contact />} />
     
         </Routes>
 
